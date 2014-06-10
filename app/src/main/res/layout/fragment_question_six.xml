@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/exam_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/type6_stem_descption"
+        style="@style/text_stem_descption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/type6_stem_text"
+        style="@style/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="23rlhlk"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/type6_opt_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <RadioButton
+            android:id="@+id/type6_opt_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/answer_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/type6_opt_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/answer_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/type6_opt_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/answer_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/type6_opt_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/answer_radiobutton" />
+    </RadioGroup>
+
+</LinearLayout>

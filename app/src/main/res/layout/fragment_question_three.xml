@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/exam_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/type3_stem_descption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_stem_descption" />
+
+    <TextView
+        android:id="@+id/type3_stem_text"
+        style="@style/question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="23rlhlk"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/type3_stem_res"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp" >
+
+            <com.happy.english.support.lib.RectangleProgressView
+                android:id="@+id/type3_opt_rp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/type3_opt_text1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/corners_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp" >
+
+            <com.happy.english.support.lib.RectangleProgressView
+                android:id="@+id/type3_opt_rp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/type3_opt_text2"
+                style="@style/color_textview"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp" >
+
+            <com.happy.english.support.lib.RectangleProgressView
+                android:id="@+id/type3_opt_rp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/type3_opt_text3"
+                style="@style/color_textview"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:singleLine="true"
+                android:text="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp" >
+
+            <com.happy.english.support.lib.RectangleProgressView
+                android:id="@+id/type3_opt_rp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/type3_opt_text4"
+                style="@style/color_textview"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:singleLine="true"
+                android:text="1" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

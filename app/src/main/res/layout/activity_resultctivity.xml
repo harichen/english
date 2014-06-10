@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:padding="10dp" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:gravity="center_vertical" -->
+    <!-- android:text="第一题" /> -->
+
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_margin="10dp" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:gravity="center_vertical" -->
+    <!-- android:text="您的答案：" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:gravity="center_vertical" -->
+    <!-- android:text="参考答案：" /> -->
+    <!-- </LinearLayout> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:src="@drawable/correct" /> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_share" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="本次测试所得" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="#f00"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="闯关成功"
+        android:layout_weight="1"
+        android:textColor="#f00"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="第一题： 对（10%答对）
+第二题： 错（20%答对）
+第三题： 对（10%答对）
+第四题： 错（40%答对）
+第五题： 对（10%答对）
+第六题： 对（1%答对）" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="最新能力评估：8.8" />
+
+    <com.happy.english.widget.SpiderView
+        android:id="@+id/myview"
+        android:layout_width="200dp"
+        android:layout_weight="1"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="继续挑战下一关" />
+
+</LinearLayout>

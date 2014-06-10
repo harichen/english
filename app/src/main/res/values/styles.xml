@@ -1,0 +1,192 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="answerbanner_push_up_in">
+        <item name="@android:windowEnterAnimation">@anim/push_up_in</item>
+    </style>
+
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="anim_dialog">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_out</item>
+    </style>
+
+    <!-- <style name="CustomTheme" parent="AppTheme"> -->
+    <!-- <item name="android:radioButtonStyle">@style/answerradiobutton</item> -->
+    <!-- <item name="sdlDialogStyle">@style/DialogStyleLight</item> -->
+    <!-- </style> -->
+
+    <style name="exam_layout">
+        <item name="android:gravity">top|center_horizontal</item>
+    </style>
+
+    <style name="text_stem_descption">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_stem_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="tv_money">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/icon_gold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="tv_result">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="tv_us">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">8dp</item>
+        
+    </style>
+
+    <style name="color_imageview">
+        <item name="android:background">@drawable/corners_bg</item>
+    </style>
+
+    <style name="color_textview" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/corners_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mycheckbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/answer_checkbox</item>
+    </style>
+
+    <style name="answerradiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:background">@null</item>
+        <item name="android:button">@drawable/answer_radiobutton</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="choice_item_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_choice_item_view_selector</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:maxWidth">120dp</item>
+        
+        <item name="android:textSize">@dimen/choice_item_view</item>
+    </style>
+        <style name="music_choice_item_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_choice_item_view</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:maxWidth">120dp</item>
+        <item name="android:textSize">@dimen/choice_item_view</item>
+    </style>
+    
+    <style name="line_of_layoutitem">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#23232323</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+
+
+    <style name="radiobtn_choice_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/radiobtn_choice_item_selector</item>
+        <item name="android:button">@drawable/tab_radio_selector</item>
+    </style>
+
+    <style name="question_1_opt_pic">
+        <item name="android:layout_width">@dimen/question_1_opt_pic</item>
+        <item name="android:layout_height">@dimen/question_1_opt_pic</item>
+    </style>
+
+    <style name="question_2_opt_ic">
+        <item name="android:layout_width">@dimen/question_2_opt_pic</item>
+        <item name="android:layout_height">@dimen/question_2_opt_pic</item>
+    </style>
+
+    <style name="question_6_opt_ic">
+        <item name="android:layout_width">@dimen/question_6_opt_ic_w</item>
+        <item name="android:layout_height">@dimen/question_6_opt_ic_h</item>
+    </style>
+
+    <style name="red_radiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/red_color_radiobutton</item>
+    </style>
+
+    <style name="yellow_radiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/yellow_color_radiobutton</item>
+    </style>
+
+    <style name="purple_radiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/purple_color_radiobutton</item>
+    </style>
+
+    <style name="green_radiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/green_color_radiobutton</item>
+    </style>
+
+    <style name="question_title">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>

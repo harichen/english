@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" 
+    android:background="@drawable/map_background">
+
+    
+   <LinearLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="30dp" >
+
+        <Button
+            android:id="@+id/btn_SinaWeibo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/bg_login_selector"
+            android:textColor="#232323"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/icon_weibo"
+            android:text="新浪微博账号登录" />
+
+        <Button
+            android:id="@+id/btn_qq"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/bg_login_selector"
+            android:textColor="#232323"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/icon_qq"
+            android:layout_marginTop="10dp"
+            android:text="QQ账号登陆" />
+
+        <Button
+            android:id="@+id/btn_wechat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="微信分享" />
+
+        <Button
+            android:id="@+id/btn_wchatmoment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="微信朋友圈分享" />
+    </LinearLayout>
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="我是英霸"
+        android:textStyle="bold"
+        android:textColor="#232323"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>

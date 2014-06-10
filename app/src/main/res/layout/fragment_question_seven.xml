@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="10dp">
+    
+    <TextView
+        android:id="@+id/type7_stem_descption"
+        style="@style/text_stem_descption"
+        android:text="23rlhlk" />
+
+    <TextView
+        android:id="@+id/type7_stem_text"
+        android:layout_below="@+id/type7_stem_descption"
+        style="@style/text_stem_text"
+        android:text="23rlhlk" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"  >
+
+        <ImageView
+            android:id="@+id/type7_stem_res"
+            style="@style/question_6_opt_ic"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/type7_opt_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+        <RadioButton
+            android:id="@+id/type7_opt_rb1"
+            style="@style/radiobtn_choice_item"  />
+
+        <RadioButton
+            android:id="@+id/type7_opt_rb2"
+            style="@style/radiobtn_choice_item"  />
+
+        <RadioButton
+            android:id="@+id/type7_opt_rb3"
+            style="@style/radiobtn_choice_item"  />
+
+        <RadioButton
+            android:id="@+id/type7_opt_rb4"
+            style="@style/radiobtn_choice_item"  />
+    </RadioGroup>
+
+</LinearLayout>

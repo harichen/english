@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plane_contaner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/layoutitem_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_music_answer_item"
+            android:gravity="center" >
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="①"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/tab_onetwothree"/>
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/answer_1"
+                style="@style/choice_item_view"
+                android:text="lichong"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutitem_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_music_answer_item"
+            android:gravity="center" >
+            
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="②"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/tab_onetwothree"/>
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/answer_2"
+                style="@style/choice_item_view"
+                android:text="lichong"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutitem_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_music_answer_item"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="③"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/tab_onetwothree"/>
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/answer_3"
+                style="@style/choice_item_view"
+                android:text="lichong"
+                android:visibility="invisible" />
+        </FrameLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_bg_choice_item_view"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/choice_1"
+                style="@style/music_choice_item_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_bg_choice_item_view"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/choice_2"
+                style="@style/music_choice_item_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_bg_choice_item_view"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/choice_3"
+                style="@style/music_choice_item_view" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_bg_choice_item_view"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/choice_4"
+                style="@style/music_choice_item_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_bg_choice_item_view"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/choice_5"
+                style="@style/music_choice_item_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bg_bg_choice_item_view"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/choice_6"
+                style="@style/music_choice_item_view" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/plane1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/plane2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/plane3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/plane4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/plane5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/plane6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

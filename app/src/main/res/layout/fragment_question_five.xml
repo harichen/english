@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="10dp">
+
+   <TextView
+        android:id="@+id/type5_stem_descption"
+        style="@style/text_stem_descption"
+        android:text="23rlhlk" />
+
+    <TextView
+        android:id="@+id/type5_stem_text"
+        android:layout_below="@+id/type5_stem_descption"
+        style="@style/text_stem_text"
+        android:text="23rlhlk" />
+
+    <RadioGroup
+        android:id="@+id/type5_opt_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="20dp" >
+
+        <RadioButton
+            android:id="@+id/type5_opt_rb1" 
+            style="@style/radiobtn_choice_item"  />
+
+        <RadioButton
+            android:id="@+id/type5_opt_rb2"
+            style="@style/radiobtn_choice_item" />
+
+        <RadioButton
+            android:id="@+id/type5_opt_rb3"
+            style="@style/radiobtn_choice_item"  />
+
+        <RadioButton
+            android:id="@+id/type5_opt_rb4"
+            style="@style/radiobtn_choice_item"  />
+    </RadioGroup>
+
+</LinearLayout>

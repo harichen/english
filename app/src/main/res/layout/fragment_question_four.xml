@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/type4_stem_descption"
+        style="@style/text_stem_descption"  />
+
+    <LinearLayout
+        style="@style/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/type4_btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/feed_main_player_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sound" />
+            <ImageView
+                android:id="@+id/type4_btn_play_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sound_play1" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/seekbar_img"  
+            android:thumb="@drawable/thumb"
+            android:paddingLeft="15dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:text="30s" />
+
+    </LinearLayout>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:scrollbarFadeDuration="1000000" >
+
+    <com.happy.english.widget.TV
+        android:id="@+id/type4_stem_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="23rlhlk"
+        android:textStyle="italic"
+        android:padding="8dp"
+        android:textSize="20sp"  />
+    </ScrollView>
+    
+    <include layout="@layout/layout_music_dragmodule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_selected">#CCFFFF</color>
+    <color name="tab_pressed">#CCFFFF</color>
+    <color name="tab_normal">#999999</color>
+    <color name="white">#fff</color>
+    <color name="black">#333333</color>
+    <color name="more_pressed">#33ff0000</color>
+    <color name="more_normal">#0000</color>
+    <color name="line_color">#eee</color>
+    <color name="transle">#00000000</color>
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="title_bar">#9900AFBB</color>
+    
+    <color name="alpha_green">#aa46e522</color> 
+    <color name="light_green">#78ff5a</color> 
+    <color name="dark_green">#46e522</color>
+    
+    <color name="alpha_purple">#aac528ac</color> 
+    <color name="light_purple">#e84ed0</color> 
+    <color name="dark_purple">#c528ac</color>
+    
+    <color name="alpha_red">#aaf54646</color> 
+    <color name="light_red">#f77979</color> 
+    <color name="dark_red">#f54646</color>
+    
+    <color name="alpha_yellow">#aaf1af00</color> 
+    <color name="light_yellow">#f7cc5a</color> 
+    <color name="dark_yellow">#f1af00</color>
+   
+    <color name="alpha_light">#aa00B2BF</color>
+    
+    <color name="progressbar_clip">#00B2BF</color>
+    <color name="progressbar">#D7D7D7</color>
+    <color name="bg_bg_choice_item_view">#23232323</color>
+    
+    <color name="bg_choice_item_view">#00B2BF</color>
+    <color name="bg_choice_item_view_press">#00ccBF</color>
+    
+    <color name="tab_onetwothree">#9900B2BF</color>
+    
+    <color name="selected_item">#00B2BF</color>
+    
+    <color name="item_stroke">#cccccc</color>
+    
+    
+    <color name="radio_choice_item_check">#FFEEAA</color>
+    
+    
+    <color name="green_leaf">#aa00B2BF</color>
+    <color name="green_leaf_dark">#ff00B2BF</color>
+    
+    
+    <color name="green_leaf1">#ff00B2BF</color>
+    <color name="green_leaf_dark1">#ff008f99</color>
+    
+</resources>

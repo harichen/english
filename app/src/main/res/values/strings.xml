@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我是英霸</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="main_default_title">我是英霸</string>
+    <string name="ok">确定</string>
+    <string name="share_content">我是英霸</string>
+    <string name="wechat_demo_title">我是英霸</string>
+    
+    <!-- system -->
+    <string name="something_error">发生故障</string>
+    <string name="please_check_sdcard">请检查sd卡</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_answer_one">AnswerOneActivity</string>
+    <string name="title_activity_level_reult">LevelReultActivity</string>
+    <string name="btn_submit_check">提交</string>
+    <string name="btn_submit_continue">继续</string>
+    <string name="title_activity_test_pic">TestPicActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_us">UsActivity</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_iv_pic">50dp</dimen>
+    <dimen name="main_spiderview">250dp</dimen>
+    <dimen name="question_1_opt_pic">110dp</dimen>
+    <dimen name="question_2_opt_pic">80dp</dimen>
+    <dimen name="choice_item_view">16dp</dimen>
+    <dimen name="question_6_opt_ic_w">150dp</dimen>
+    <dimen name="question_6_opt_ic_h">200dp</dimen>
+
+</resources>
